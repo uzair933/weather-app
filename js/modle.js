@@ -26,6 +26,7 @@ export const API = async function (city, apiKey = ID) {
         daily.forEach(days => view._forcastDay(days, forcastDiv));
         view._timer();
 
+
     } catch (error) {
         view._timer();
         view._clear(true)
